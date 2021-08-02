@@ -1,0 +1,72 @@
+.text-black{
+	color: black;
+	text-decoration-style: none;
+}
+.text-black:hover{
+	color:white;
+	text-decoration-style: none;
+}
+.navbar{
+	margin: 20px;
+	background-color: transparent;
+}
+.navbar-nav{
+
+	float: right;
+}
+.navbar-brand{
+	font-size: 35px;
+	font-weight: 700px;
+	font-style: bold;
+	color: red;
+}
+.nav-item{
+	margin-left: 40px;
+	font-size: 18px; 
+	/*float: right;*/
+}
+.nav-link{
+	color: white;
+}
+.layer {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 690px;
+}
+.login-box{
+	background-color: rgba(0,0,0,0.3);
+	padding: 50px;
+	position: absolute;
+	width: 25%
+	height: 80%;
+	top: 20%;
+	left: 35%
+}
+input{
+	background-color: transparent;
+	border: none;
+	margin-top: 20px;
+	color: #ccc;
+}
+input:focus{
+
+	border-bottom:1px solid white;
+	outline-style: none;
+}
+input[type=submit]{
+	border-radius: 20px;
+	background-color: #f4be85 ;
+	color: black;
+}
+.top-name{
+	align-items: center;
+	text-align:center;
+	background-color: rgba(0,0,7,0.1);
+	padding: 3px; 
+	border-radius: 20px;
+	font-color: black;
+}
+
